@@ -1,0 +1,190 @@
+apiVersion: v1
+entries:
+  arena-camera-ros:
+  - apiVersion: v2
+    appVersion: 3.4.0
+    created: "2025-06-16T15:25:38.818039735-07:00"
+    description: RIOS system monitoring
+    digest: 893361fa95b61a3864fd99a1118fed1075b28252dec0bf4e925c211ff995c13b
+    name: arena-camera-ros
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/arena-camera-ros-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-data-collector:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.818431885-07:00"
+    description: RIOS Data Collector (dx-data-collector)
+    digest: b1002ed07b79bd452ccac8a790d153289fba847236af2ff7c62a3c29aaa14378
+    name: dx-data-collector
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-data-collector-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-depth-camera:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.818814213-07:00"
+    description: RIOS depth camera subsystem
+    digest: b2570dc5539f7dd4cf91541493fae2dad78d80ba7d8d3119c79e22592bf65a44
+    name: dx-depth-camera
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-depth-camera-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-encoder:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.819161253-07:00"
+    description: RIOS system monitoring
+    digest: 367fd8128bba54a8f20f59f821f86e1c69547ee256de6db66c139b3117d32ea4
+    name: dx-encoder
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-encoder-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-geometry:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.819502313-07:00"
+    description: RIOS robot control subsystem
+    digest: 590a1392147deed23bd60c0d8ed3475ee85cbf6b1d1d1f00db98daa8233c7792
+    name: dx-geometry
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-geometry-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-io:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-06-16T15:25:38.819915948-07:00"
+    description: RIOS industrial IO subsystem (dx-io)
+    digest: 17567d5e92f120207da40208341ea55365a9d4b41df6e0bea5ee41d3d03a2750
+    name: dx-io
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-io-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-observer:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.82043734-07:00"
+    description: RIOS chart for dx_observer
+    digest: 737351c4a6056695b53aa7828697a3410f4818a6018c48229aa337b85224ec5b
+    name: dx-observer
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-observer-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-path-tracker:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.821174543-07:00"
+    description: RIOS system monitoring
+    digest: 1ac95edca7a84556c74057d1ce86ee66a0873601d21a93357904a205d1d610bb
+    name: dx-path-tracker
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-path-tracker-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-plc:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.821554617-07:00"
+    description: RIOS PLC Interface Subsystem
+    digest: 2283482ced4dfcc641ba59a06350dbc5c7af74dddd99211cdc6d781e90ee3b9d
+    name: dx-plc
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-plc-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-robot-control:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-06-16T15:25:38.821979523-07:00"
+    description: RIOS robot control subsystem
+    digest: 116182bb004b8e2640c7bfa1d035f20bc4250acdebe7c4345baa18690e55edba
+    name: dx-robot-control
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-robot-control-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-sysmon:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.822316452-07:00"
+    description: RIOS system monitoring
+    digest: c82e774a19d05b7fa3863bc652c87c23ff6465bd4c4af177ad48ae32cc587a36
+    name: dx-sysmon
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-sysmon-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  dx-veneer-panel-handling:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.822761264-07:00"
+    description: RIOS App Mod
+    digest: 49587cae05e729446446a5a25ceb5b93e0596c701483ea5c7eb4d715b785b203
+    name: dx-veneer-panel-handling
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/dx-veneer-panel-handling-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  hmi-gui:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.823045062-07:00"
+    description: RIOS behavior tree subsystem
+    digest: 923849d1996564ba71f4fe35b94b3ff66d80f035a8e8455c594c51c3eede5375
+    name: hmi-gui
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/hmi-gui-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  rios-internal-ca:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2025-06-16T15:25:38.823220296-07:00"
+    description: RIOS's internal CA as a k8s secret
+    digest: 2b7a4d916b93c7fe0fb33e476608c69d78ec7a3396bc411c71b5fe6449ee9ca5
+    name: rios-internal-ca
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/rios-internal-ca-v1.0.0.tgz
+    version: v1.0.0
+  rios-rosbridge:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2025-06-16T15:25:38.82360784-07:00"
+    description: RIOS base rosbridge container
+    digest: f6b31420723f7b822f296e3e7ad8d0b8f282a819b487eafb0ab7a5e05a24d79f
+    name: rios-rosbridge
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/rios-rosbridge-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  rios-roscore:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2025-06-16T15:25:38.823931947-07:00"
+    description: RIOS base roscore container
+    digest: efd8af1db100e1eae3107e0bc6dffca3939a3ceb0e92d68628c6802ba980e11c
+    name: rios-roscore
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/rios-roscore-0.0.0-develop.tgz
+    version: 0.0.0-develop
+  web-video-server:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-16T15:25:38.824178682-07:00"
+    description: RIOS Rostopic Web Video Server (web-video-server)
+    digest: cb5bbead37de65710e63eff2447bec57c6057bec39da309a7fd4249e63c23ef6
+    name: web-video-server
+    type: application
+    urls:
+    - https://github.com/rios-ai/argocd-migration-test/tree/develop/charts/web-video-server-0.0.0-feature-local-logging.tgz
+    version: 0.0.0-feature-local-logging
+generated: "2025-06-16T15:25:38.8174185-07:00"
